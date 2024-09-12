@@ -26,7 +26,6 @@ def frameAP(opt, print_info=True):
     inference_dirname = opt.inference_dir
     print('inference_dirname is ', inference_dirname)
     print('threshold is ', th)
-    print("hello")
 
     vlist = dataset._test_videos[opt.split - 1]
     # load per-frame detections
